@@ -13,7 +13,7 @@
 body {
    background-color: var(--bg-store-color);
    font-family: "Inter", sans-serif;
-   background: var(--white);
+   background: var(--black);
 }
 
 p,
@@ -31,20 +31,20 @@ h6,
    font-family: "Chakra Petch", sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  color: var(--black);
+  color: var(--white);
 }
 
 
 .fundo-secundario, .fundo-secundario *, .fundo-secundario *:hover, .fundo-secundario:hover, .fundo-secundario.botao:hover {
-   color: var(--black);
+   color: var(--white);
 }
 
 .cor-secundaria {
-   color: var(--black);
+   color: var(--white);
 }
 
 html {
-   background: var(--white);
+   background: var(--black);
 }
 
 /* ------------------- Components */

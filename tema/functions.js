@@ -6,7 +6,7 @@ $(document).ready(function(){
   $('#cabecalho .span8.busca-mobile').after(`
       <div class="h-actions hidden-phone">
           <a href="/conta/login" class="h-user">
-              <img src="https://cdn.awsli.com.br/2942/2942234/arquivos/user.svg" alt="Minha conta">
+              <img src="https://cdn.awsli.com.br/1105/1105463/arquivos/user.svg" alt="Minha conta">
               <span>Entrar</span>
           </a>
       </div>
@@ -15,16 +15,16 @@ $(document).ready(function(){
   $('#cabecalho .conteudo-topo .inferior').after(`
       <div class="h-actions visible-phone">
           <a href="/conta/login" class="h-user">
-              <img src="https://cdn.awsli.com.br/2942/2942234/arquivos/user.svg" alt="Minha conta">
+              <img src="https://cdn.awsli.com.br/1105/1105463/arquivos/user.svg" alt="Minha conta">
               <span>Entrar</span>
           </a>
   
           <div class="h-search visible-phone">
-              <img src="https://cdn.awsli.com.br/2942/2942234/arquivos/search.svg" alt="Buscar">
+              <img src="https://cdn.awsli.com.br/1105/1105463/arquivos/search.svg" alt="Buscar">
           </div>
   
           <div class="h-menu visible-phone">
-              <img src="https://cdn.awsli.com.br/2942/2942234/arquivos/menu.svg" alt="Menu">
+              <img src="https://cdn.awsli.com.br/1105/1105463/arquivos/menu.svg" alt="Menu">
           </div>
       </div>
   `);
@@ -32,7 +32,7 @@ $(document).ready(function(){
   $('.banner.cheio .flex-direction-nav').prepend($('.banner.cheio .flex-control-nav'));
   
   // $('.selos li:first-child img').attr('src','https://cdn.awsli.com.br/2830/2830294/arquivos/site-protegido.svg');
-  $('#rodape>div:last-child .conteiner .row-fluid div:not(.span12)').before(`<div class="feito-pixelset"><a href="https://www.pixelset.com.br/" class="pixel-logo" target="_blank"><img src="https://cdn.awsli.com.br/2942/2942234/arquivos/pixel-set.svg" alt="Pixelset"></a></div>`)
+  $('#rodape>div:last-child .conteiner .row-fluid div:not(.span12)').before(`<div class="feito-pixelset"><a href="https://www.pixelset.com.br/" class="pixel-logo" target="_blank"><img src="https://cdn.awsli.com.br/1105/1105463/arquivos/pixel-set.svg" alt="Pixelset"></a></div>`)
   $('#rodape>div:last-child .row-fluid > div:last-child').attr('style','')
   
 
@@ -683,7 +683,7 @@ if (CONFIG.bannerVitrine) {
     $('.links-rodape .titulo, .atendimento-rodape .titulo, .visible-phone .titulo')
     .each(function(){
       if (!$(this).find('.chev').length) {
-        $(this).append('<span class="chev"><img src="https://cdn.awsli.com.br/2942/2942234/arquivos/chevron_fdown.svg"/></span>');
+        $(this).append('<span class="chev"><img src="https://cdn.awsli.com.br/1105/1105463/arquivos/chevron_fdown.svg"/></span>');
       }
     });
 

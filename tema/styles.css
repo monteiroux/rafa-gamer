@@ -2203,9 +2203,9 @@ div#exibirFormasPagamento .btn.btn-small {
 .listagem .flex-direction-nav .flex-next, .listagem .flex-direction-nav .flex-prev {
    width: 48px;
    height: 48px;
-   background: var(--white);
+   background: var(--black);
    border: 1px solid var(--brand-color);
-   color: #fff;
+   color: #000;
    font-size: 0;
    position: absolute;
    z-index: 10;
@@ -2538,7 +2538,7 @@ div#exibirFormasPagamento .btn.btn-small {
 .conteudo-topo > .inferior {
    position: fixed;
    top: 81px;
-   background: var(--white);
+   background: var(--black);
    width: 100%;
    left: 0;
    padding: 20px;
@@ -2575,7 +2575,7 @@ a.atalho-menu {
 }
 
 .c-slide-section {
-   padding: 0;
+   padding: 0 0 0 16px;
 }
 
 .slick-arrow.slick-next {
@@ -3526,4 +3526,8 @@ div#_trustvox_colt .review-card {
    background: var(--brand-color);
    align-items: center;
    font-size: 14px;
+}
+
+.tarja-header * {
+   color: var(--black)
 }

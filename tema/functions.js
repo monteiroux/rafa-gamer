@@ -106,6 +106,7 @@ $(document).ready(function(){
       return `<li class="c-item">
           <a href="${c.link}">
               <img src="${c.img}" alt="${c.alt}">
+              <span>${c.alt}</span>
           </a>
       </li>`;
   }).join('');

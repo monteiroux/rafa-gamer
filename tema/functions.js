@@ -105,7 +105,7 @@ $(document).ready(function(){
   var categoriaLis = categorias.map(function(c){
       return `<li class="c-item">
           <a href="${c.link}">
-              <div class="t-img"><img src="${c.img}" alt="${c.alt}"></div>
+              <img src="${c.img}" alt="${c.alt}">
               <span>${c.alt}</span>
           </a>
       </li>`;
@@ -709,7 +709,7 @@ if (CONFIG.bannerVitrine) {
   var tarjaItems = tarja.map(function(t){
     return `
       <div class="t-item">
-        <img src="${t.icon}" alt="${t.titulo}">
+        <div class="t-img"><img src="${t.icon}" alt="${t.titulo}"></div>
         <div class="t-text">
           <strong>${t.titulo}</strong>
           <span>${t.texto}</span>

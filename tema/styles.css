@@ -2,10 +2,10 @@
 
 
 :root {
-   --bg-color: #1E1E1E;
+   --bg-color: #1B1821;
    --text-color: #FFFFFF;
    --brand-color: #15EDC3;
-   --black: #1E1E1E;
+   --black: #1B1821;
    --white: #FFFFFF;
    --grey: #4C4C4C;
 }
@@ -3240,7 +3240,7 @@ section.faq-section {
 }
 
 .faq-container * {
-	color: var(--black);
+	color: var(--white);
 }
 
 .faq-resposta {

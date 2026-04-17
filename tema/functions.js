@@ -699,7 +699,7 @@ if (CONFIG.bannerVitrine) {
 
     });
 
-  
+    $('#cabecalho > .conteiner > .row-fluid > .span3').before($('.h-menu'));
   //Fim mobile
   }
 

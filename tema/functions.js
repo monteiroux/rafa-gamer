@@ -105,7 +105,7 @@ $(document).ready(function(){
   var categoriaLis = categorias.map(function(c){
       return `<li class="c-item">
           <a href="${c.link}">
-              <img src="${c.img}" alt="${c.alt}">
+              <div class="t-img"><img src="${c.img}" alt="${c.alt}"></div>
               <span>${c.alt}</span>
           </a>
       </li>`;

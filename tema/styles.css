@@ -2575,7 +2575,7 @@ a.atalho-menu {
 }
 
 .c-slide-section {
-   padding: 0 0 0 16px;
+   padding: 0 0 16px;
 }
 
 .slick-arrow.slick-next {
@@ -3472,8 +3472,10 @@ div#_trustvox_colt .review-card {
 }
 
 .t-item {
-   display: flex!important;
+   display: flex !important;
    gap: 10px;
+   flex-direction: row-reverse;
+   align-items: center;
 }
 
 .t-item .t-text {
@@ -3482,11 +3484,14 @@ div#_trustvox_colt .review-card {
 }
 
 .t-item .t-text strong {
-   font-size: 18px;
+   font-size: 16px;
 }
 
 .t-item .t-text span {
-   font-size: 14px;
+   font-size: 12px;
+   text-transform: uppercase;
+   letter-spacing: 20%;
+   opacity: .6;
 }
 
 .t-slide img {max-width: 24px;max-height: 24px;}
@@ -3500,6 +3505,11 @@ div#_trustvox_colt .review-card {
 
    .t-item {
       justify-content: center;
+      width: fit-content !important;
+      margin: 0 10px;
+      padding: 10px;
+      background: rgba(255, 255, 255, .05);
+      border-radius: 8px;
   }
 
 }
@@ -3530,4 +3540,14 @@ div#_trustvox_colt .review-card {
 
 .tarja-header * {
    color: var(--black)
+}
+
+.t-item > div.t-img {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 48px;
+   height: 48px;
+   background: rgba(255, 255, 255, .05);
+   border-radius: 8px;
 }

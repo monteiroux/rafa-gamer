@@ -763,5 +763,6 @@ if (CONFIG.bannerVitrine) {
     `);
   }
 
+  $('#cabecalho').append($('<div class="tarja-header"><span><strong>Envio digital</strong> receba por e-mail.</span></div>'));
   
 });

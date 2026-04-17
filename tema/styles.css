@@ -3517,3 +3517,12 @@ div#_trustvox_colt .review-card {
    color: #000;
    margin-top: 20px!important;
 }
+
+.tarja-header {
+   display: flex;
+   justify-content: center;
+   height: 36px;
+   background: var(--brand-color);
+   align-items: center;
+   font-size: 14px;
+}

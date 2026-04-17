@@ -28,7 +28,7 @@ h4,
 h5,
 h6,
 .titulo {
-   font-family: "Chakra Petch", sans-serif;
+   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   color: var(--white);
@@ -1593,7 +1593,7 @@ background: var(--white);
       background: none !important;
       border: 1px solid var(--brand-color);
       text-shadow: none;
-      color: var(--black) !important;
+      color: var(--white) !important;
       font-family: 'Chakra Petch', sans-serif;
       font-size: 14px;
    }

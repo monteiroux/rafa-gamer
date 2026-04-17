@@ -599,9 +599,9 @@ span.bn-t-title {
 .slick-arrow {
    width: 48px;
    height: 48px;
-   background: var(--white);
+   background: var(--black);
    border: 1px solid var(--brand-color);
-   color: #fff;
+   color: var(--white);
    font-size: 0;
    position: absolute;
    z-index: 10;

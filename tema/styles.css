@@ -238,7 +238,7 @@ input:focus {
 }
 
 #cabecalho .conteudo-topo.span9 {
-   width: 100%;
+   width: fit-content;
 }
 
 #cabecalho > .conteiner > .row-fluid {
@@ -579,6 +579,7 @@ span.bn-t-title {
    display: flex;
    align-items: center;
    justify-content: center;
+   flex-direction: column;
 }
 
 .c-item a img {
@@ -2521,6 +2522,7 @@ div#exibirFormasPagamento .btn.btn-small {
    display: flex!important;
    align-items: center;
    justify-content: center;
+   flex: none;
 }
 
 .h-actions {
@@ -2635,7 +2637,7 @@ a.atalho-menu {
 }
 
 #cabecalho > .conteiner > .row-fluid > .span3 {
-   width: 200px;
+   width: 100%;
 }
 
 .acoes-produto-responsiva .tag-comprar {

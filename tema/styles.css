@@ -59,7 +59,7 @@ html {
 
 .botao, .btn {
    background: var(--brand-color)!important;
-   color: var(--black)!important;
+   color: var(--white)!important;
    padding: 12px 24px;
    border: 0;
    border-radius: 0;
@@ -521,7 +521,7 @@ span.bn-t-title {
 
 .bandeiras-produto .adicionado-carrinho {
    background-color: var(--white);
-   color: var(--black) !important;
+   color: var(--white) !important;
 }
 
 .listagem-item .preco-parcela strong, .listagem-item .desconto-a-vista strong {
@@ -941,7 +941,7 @@ button.whatsapp-btn {
     border: 1px solid var(--brand-color);
     padding: 12px 32px;
     margin-top: 10px;
-   color: var(--black)
+   color: var(--white)
 }
 
 button.whatsapp-btn i {
@@ -1493,7 +1493,7 @@ background: var(--white);
 
 #consulte-form .consulte-fechar {
     background: var(--white)!important;
-    color: var(--black)!important;
+    color: var(--white)!important;
     border: 1px solid rgba(0,0,0,.1);
 }
 
@@ -1837,7 +1837,7 @@ background: var(--white);
    
    .finalizar-compra .span12 a.botao {
        background: var(--white) !important;
-       color: var(--black) !important;
+       color: var(--white) !important;
        border: 1px solid rgba(0, 0, 0, .1);
    }
    
@@ -2020,7 +2020,7 @@ background: var(--white);
 
 .carrinho-checkout select {
    background: var(--white) !important;
-   color: var(--black) !important;
+   color: var(--white) !important;
    height: 48px !important;
    padding: 0 16px !important;
    border-radius: 0 !important;
@@ -2061,7 +2061,7 @@ background: var(--white);
 
 textarea {
    background: var(--white) !important;
-   color: var(--black) !important;
+   color: var(--white) !important;
    padding: 10px 16px !important;
    border-radius: 0 !important;
    border: 1px solid rgba(0, 0, 0, .1) !important;
@@ -2072,7 +2072,7 @@ div#exibirFormasPagamento .btn.btn-small {
    background: none!important;
    border: 1px solid rgba(255,255,255,.2);
    text-shadow: none;
-   color: var(--black)!important;
+   color: var(--white)!important;
    font-size: 14px;
    display: flex;
    gap: 10px;
@@ -2367,7 +2367,7 @@ div#exibirFormasPagamento .btn.btn-small {
     background: var(--white) !important;
     border: 1px solid var(--brand-color);
     text-shadow: none;
-    color: var(--black) !important;
+    color: var(--white) !important;
 }
 
 .pagina-busca .ordenar-listagem.topo {
@@ -3358,7 +3358,7 @@ section.faq-section {
 
 .categoria-mais > a {
 	font-size: 16px;
-	color: var(--black)!important;
+	color: var(--white)!important;
 }
 
 ul.submenu-mais {
@@ -3551,7 +3551,7 @@ div#_trustvox_colt .review-card {
 }
 
 .tarja-header * {
-   color: var(--black)
+   color: var(--white)
 }
 
 .t-item > div.t-img {

@@ -886,7 +886,7 @@ span.bn-t-title {
 }
 
 #rodape>div:last-child {
-    background: var(--white)!important;
+    background: var(--black)!important;
     border: 0!Important;
     padding: 48px 48px 32px!important;
 }
@@ -2177,7 +2177,7 @@ div#exibirFormasPagamento .btn.btn-small {
 
 #barraNewsletter {
    box-shadow: none;
-   background: #fff;
+   background-color: #1e1e1e;
    border-top: 1px solid rgba(0, 0, 0, .2);
 }
 

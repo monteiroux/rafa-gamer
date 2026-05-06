@@ -783,7 +783,7 @@ span.bn-t-title {
 	margin: 0;
 	font-size: 16px;
 	padding: 0 0 20px;
-   color: var(--black);
+   color: var(--white);
    font-weight: 600;
 }
 
@@ -847,7 +847,11 @@ span.bn-t-title {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--black);
+    color: var(--white);
+}
+
+#rodape {
+   background: var(--black);
 }
 
 .lista-redes li {
@@ -1217,6 +1221,13 @@ div#modal-pagamento.ativo {
    display: block;
    margin: 48px 0 32px;
    text-align: center;
+}
+#tituloDepoimentos h4 strong {
+   color: var(--white);
+}
+
+#barraNewsletter, #barraNewsletter .show-hide, #barraNewsletter .componente, #barraNewsletter.posicao-rodape .conteiner {
+   background-color: #1e1e1e;
 }
 
 .listagem .listagem-linha li {
@@ -2980,7 +2991,7 @@ a.atalho-menu {
    cursor: pointer;
    padding: 20px;
    margin-bottom: 20px;
-   background: rgba(0, 0, 0, .05);
+   background: rgba(255,255,255, .05);
 }
 
 .chev {

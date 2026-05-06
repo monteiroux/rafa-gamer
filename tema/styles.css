@@ -203,7 +203,7 @@ input:focus {
 
 .menu.superior .nivel-um li {
    border: 0;
-   padding: 0 16px;
+   padding: 0 10px;
 }
 
 .menu.superior .nivel-um li strong {
@@ -665,7 +665,7 @@ span.bn-t-title {
 .c-slide-section {
    padding: 0 32px;
    max-width: 1300px;
-   margin: 0 auto;
+   margin: 0 auto 16px;
 }
 
 /* Página do produto */
@@ -2101,12 +2101,12 @@ div#exibirFormasPagamento .btn.btn-small {
 .menu.superior .nivel-dois {
 	top: 60px;
 	padding: 0;
-	background: var(--white);
+	background: var(--black);
 }
 
 .menu.superior .nivel-tres {
 	padding: 0;
-	background: var(--white);
+	background: var(--black);
 }
 
 .menu.superior .nivel-dois > li,
@@ -3552,7 +3552,7 @@ div#_trustvox_colt .review-card {
 }
 
 .tarja-header * {
-   color: var(--white)
+   color: var(--black)
 }
 
 .t-item > div.t-img {

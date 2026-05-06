@@ -1838,7 +1838,7 @@ background: var(--white);
    
    .finalizar-compra .span12 a.botao {
        background: var(--white) !important;
-       color: var(--white) !important;
+       color: var(--black) !important;
        border: 1px solid rgba(0, 0, 0, .1);
    }
    
@@ -2261,7 +2261,7 @@ div#exibirFormasPagamento .btn.btn-small {
 /* Modal comprar ajax */
 
 .modal-comprar-ajax-status .fancybox-skin {
-    background: var(--white);
+    background: var(--black);
 }
 
 #comprar-ajax-status .sucesso .buttons .ir-carrinho i {

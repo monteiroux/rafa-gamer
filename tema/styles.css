@@ -790,7 +790,7 @@ span.bn-t-title {
 
 #rodape {
 	background: var(--white);
-	border-top: 1px solid rgba(0,0,0,.1);
+	border-top: 1px solid rgba(255,255,255,.1);
 }
 
 #rodape .institucional,
@@ -2178,11 +2178,11 @@ div#exibirFormasPagamento .btn.btn-small {
 #barraNewsletter {
    box-shadow: none;
    background-color: #1e1e1e;
-   border-top: 1px solid rgba(0, 0, 0, .2);
+   border-top: 1px solid rgba(255, 255, 255, .2);
 }
 
 .carrinho .carrinho-interno {
-    background: var(--white);
+    background: var(--black);
     border: 0;
     box-shadow: 0 0 30px rgba(0,0,0,.5);
     top: 60px;

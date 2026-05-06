@@ -172,7 +172,7 @@ input:focus {
 }
 
 .carrinho>a strong {
-   color: var(--white);
+   color: var(--black);
    background: var(--brand-color);
    width: 24px;
    height: 24px;
@@ -1625,6 +1625,7 @@ background: var(--white);
       right: 20px;
       top: 20px;
       left: auto;
+      background: var(--black);
    }
    
    #modalFiltros.modal.fade {

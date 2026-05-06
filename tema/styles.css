@@ -252,7 +252,7 @@ input:focus {
 
 a.h-user {
    font-size: 14px;
-   color: var(--black);
+   color: var(--white);
    font-weight: 600;
    height: 48px;
    display: flex;
@@ -455,7 +455,7 @@ span.bn-t-title {
    content: "Confira o que há de novo no mundo dos games.";
    display: block;
    font-size: 16px;
-   color: var(--black);
+   color: var(--white);
 }
 
 #listagemProdutos {
@@ -799,7 +799,7 @@ span.bn-t-title {
 
 .links-rodape li a {
 	font-size: 16px;
-   color: var(--black);
+   color: var(--white);
 }
 
 .links-rodape li {
@@ -945,7 +945,7 @@ button.whatsapp-btn {
 }
 
 button.whatsapp-btn i {
-   color: var(--black);
+   color: var(--white);
 }
 
 ul.whatsapp-dropdown-menu {
@@ -1197,7 +1197,7 @@ div#modal-pagamento.ativo {
 
 .modal-header .fechar-modal {
    background: none;
-   color: var(--black);
+   color: var(--white);
    font-size: 20px;
 }
 
@@ -1293,7 +1293,7 @@ div#modal-pagamento.ativo {
    content: "Descrição";
    font-size: 28px;
    font-weight: bold;
-   color: var(--black);
+   color: var(--white);
    margin: 48px 0 32px;
    display: block;
 }
@@ -1342,12 +1342,12 @@ div#modal-pagamento.ativo {
 .compre-junto__atributo--lista option {
    padding: 10px 20px;
    background: var(--white);
-   color: var(--black);
+   color: var(--white);
 }
 
 .compre-junto__produto--principal .compre-junto__nome a,
 .compre-junto__produto--grade .compre-junto__nome a {
-	color: var(--black);
+	color: var(--white);
 }
 
 .compre-junto__preco--promocional,
@@ -1707,7 +1707,7 @@ background: var(--white);
    }
    
    .modal-ordenar .dropdown-menu a {
-      color: var(--black);
+      color: var(--white);
       font-size: 16px;
       padding: 0;
       line-height: 34px;
@@ -1904,7 +1904,7 @@ background: var(--white);
   }
 
   .tabela-carrinho * {
-   color: var(--black);
+   color: var(--white);
 }
 
 .carrinho-checkout .conteiner-principal #corpo .conteiner {
@@ -2011,7 +2011,7 @@ background: var(--white);
 }
 
 .dados-cadastro * {
-   color: var(--black);
+   color: var(--white);
 }
 
 .control-group.erro .control-label, .control-group.erro .help-block, .control-group.erro .help-inline {
@@ -2029,7 +2029,7 @@ background: var(--white);
 }
 
 .formas .accordion-heading .forma-conteiner * {
-   color: var(--black);
+   color: var(--white);
 }
 
 .formas .accordion-heading .forma-conteiner .envio-preco {
@@ -2056,7 +2056,7 @@ background: var(--white);
 }
 
 .help-block {
-   color: var(--black);
+   color: var(--white);
 }
 
 textarea {
@@ -2134,7 +2134,7 @@ div#exibirFormasPagamento .btn.btn-small {
 
 .menu.superior .nivel-dois a {
 	font-size: 14px;
-	color: var(--black);
+	color: var(--white);
 }
 
 #barraNewsletter .componente .titulo {
@@ -3181,7 +3181,7 @@ section.depoimentos-video {
    justify-content: center;
    font-size: 14px;
    text-transform: uppercase;
-   color: var(--black);
+   color: var(--white);
    font-weight: 600;
    display: none;
 }
@@ -3443,7 +3443,7 @@ li.categoria-mais {
    display: flex;
    align-items: center;
    justify-content: center;
-   color: var(--black);
+   color: var(--white);
    border-radius: 0!important;
    font-weight: 600;
    font-size: 14px;
